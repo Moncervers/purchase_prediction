@@ -1,7 +1,7 @@
 [project]
 name = "purchase-prediction"
-version = "0.1.0"
-description = "Add your description here"
+version = "1.0.0"
+description = "Predicts customer purchase likelihood within 90 days using CatBoost. Analyzes purchase history, email interactions, and behavioral data to optimize targeted marketing campaigns. Achieves ROC AUC up to 0.72 with feature importance insights via SHAP."
 readme = "README.md"
 requires-python = ">=3.11, <3.13"
 dependencies = [
@@ -11,14 +11,9 @@ dependencies = [
     "matplotlib>=3.10.3",
     "notebook>=7.4.2",
     "numpy>=2.2.5",
-    "optuna>=4.3.0",
-    "optuna-integration>=4.3.0",
     "pandas>=2.2.3",
     "phik>=0.12.4",
     "scikit-learn>=1.6.1",
     "seaborn>=0.13.2",
-    "sentence-transformers>=4.1.0",
     "shap>=0.47.2",
-    "torch>=2.7.0",
-    "xgboost>=3.0.1",
 ]
